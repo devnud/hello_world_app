@@ -14,10 +14,12 @@ class _CounterSreenState extends State<CounterSreen> {
   @override
   Widget build(BuildContext context) {
     String texto = counter == 1 ? 'Click' : 'Clicks';
+    
 
     return Scaffold(
       appBar: AppBar(
-        title: const Text('Counter Functions'),
+        title: const Text('Contador'),
+        centerTitle: true,
         actions: [
           IconButton(
               onPressed: () {
